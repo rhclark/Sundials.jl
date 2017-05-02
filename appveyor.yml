@@ -45,6 +45,7 @@ test_script:
   
 artifacts:
   - path: '**\libsundials_cvode.a'  
+  - ps: dir C:
  
   
 deploy:
