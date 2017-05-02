@@ -44,8 +44,9 @@ test_script:
   
   
 deploy:
-  provider: gcs
-  access_key_id: GOOGHK4SCMDVVDNXWLUF 	
-  secret_access_key: 5+9g20s/y5pwm1Pt22RVb60pD8bNXqPgDLM6cs9m 	
-  bucket: rhclark-appveyor-cvode
-  skip_cleanup: true 
+  provider: FTP
+  protocol: ftp
+  host: ftp.midcapsignals.com/midcap/d_appveyor
+  username: roberthclark
+  password:
+    secure: K22E4pSAup6/htlGmoSBMw==
