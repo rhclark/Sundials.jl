@@ -44,11 +44,7 @@ test_script:
   
   
 artifacts:
-  - path: '**\*.h'  
-  - path: '**\*.hh'  
-  - path: '**\*.dll'  
-  - path: '**\*.a'  
-  - path: '**\*.so'  
+  - path: '**\libsundials_cvode.a'  
  
   
 deploy:
