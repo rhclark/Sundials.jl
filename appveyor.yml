@@ -34,7 +34,7 @@ install:
 
 build_script:
 # Need to convert from shallow to complete for Pkg.clone to work
-  - IF EXIST .git\shallow (git fetch --unshallow)
+  - IF EXIST .git\shallow (git  etch --unshallow)
   - C:\projects\julia\bin\julia -e "versioninfo();
       Pkg.clone(pwd(), \"Sundials\"); Pkg.build(\"Sundials\")"
 
